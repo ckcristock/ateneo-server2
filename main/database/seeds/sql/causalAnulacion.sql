@@ -1,0 +1,45 @@
+-- --------------------------------------------------------
+-- Host:                         emcosoft.com.co
+-- Versión del servidor:         5.7.44 - MySQL Community Server (GPL)
+-- SO del servidor:              Linux
+-- HeidiSQL Versión:             12.1.0.6537
+-- --------------------------------------------------------
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+-- Volcando datos para la tabla emcosoft_db.Causal_Anulacion: ~21 rows (aproximadamente)
+INSERT IGNORE INTO `Causal_Anulacion` (`Nombre`) VALUES
+	('Error en la asignación de precios y/o descuentos.'),
+	('El cliente no recibe la factura, por cierre del mes'),
+	('El cliente no recibe el pedido'),
+	('Error por el facturador.'),
+	('Productos erroneos.'),
+	('ERROR DEL SISTEMA NO ARRASTRA LAS OBSERVACIONES NI CAMBIA DE ESTADO EN LA REM'),
+	('ERROR EN PRECIO DEL HOMOLOGO'),
+	('ERROR DE SISTEMA REM YA FACTURADA'),
+	('SE ESCOGIO UN PRODUCTO CON FECHA CORTA '),
+	('EL CLIENTE NO RECIBE MEDICAMENTOS POR TEMPERATURA'),
+	('UNIFICACION DE FACTURACION'),
+	('EL CLIENTE NO REALIZA PAGO'),
+	('SE GENERARON PRODUCTOS CON DOBLE ITEM'),
+	('ERROR DEL SISTEMA SE FACTURO VARIAS VECES'),
+	('EL CLIENTE NO RECIBE FACTURA'),
+	('ERROR EN EL IVA'),
+	('ERROR EN EL INGRESO NUMERO FACTURA'),
+	('ERROR DEL SISTEMA NO ADJUNTO ARCHIVO'),
+	('ERROR DEL SISTEMA EN PRECIOS CON NUEVA VERSION DE FACTURACION'),
+	('ERROR DEL SISTEMA EN PRECIOS CON NUEVA VERSION DE FACTURACION'),
+	('ANULACION COMPLETA DE FACTURA POR DEVOLUCION DEL CLIENTE');
+
+/*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
+/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
